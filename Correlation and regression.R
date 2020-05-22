@@ -128,7 +128,6 @@ mammals %>%
 
 ggplot(bdims, aes(hgt, wgt)) + geom_point() +
   geom_smooth(method = "lm", se = FALSE)
-<<<<<<< HEAD
 ## bdims_summary
 
 bdims_summary<- bdims %>%
@@ -244,5 +243,3 @@ summary(mod_cleaner)
 ggplot(nontrivial_players, aes(OBP, SLG)) +
   geom_point() + geom_smooth(method = "lm", se = FALSE)
 
-=======
->>>>>>> master
